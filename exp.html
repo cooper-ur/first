@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture Ordering Game</title>
+  <link rel="stylesheet" href="exp.css">
+</head>
+<body>
+  <h1>Order the pictures correctly!</h1>
+  <div class="game-container" id="gameContainer">
+    <div class="image-slot" data-order="1" draggable="true"><img src="/images/1.png" alt="Image "></div>
+    <div class="image-slot" data-order="2" draggable="true"><img src="/images/2.png" alt="Image "></div>
+    <div class="image-slot" data-order="3" draggable="true"><img src="/images/3.png" alt="Image "></div>
+    <div class="image-slot" data-order="4" draggable="true"><img src="/images/4.jpg" alt="Image "></div>
+    <div class="image-slot" data-order="5" draggable="true"><img src="/images/5.png" alt="Image "></div>
+    <div class="image-slot" data-order="6" draggable="true"><img src="/images/6.png" alt="Image "></div>
+    <div class="image-slot" data-order="7" draggable="true"><img src="/images/7.png" alt="Image "></div>
+    <div class="image-slot" data-order="8" draggable="true"><img src="/images/8.png" alt="Image "></div>
+    <div class="image-slot" data-order="9" draggable="true"><img src="/images/9.png" alt="Image "></div>
+    <div class="image-slot" data-order="10" draggable="true"><img src="/images/10.jpg" alt="Image"></div>
+  </div>
+
+  <!-- Modal for Feedback -->
+<div id="feedbackModal" class="modal">
+  <div class="modal-content">
+    <img id="modalImage" src="" class="modal-image">
+    <audio id="bgm" autoplay>
+      <source src="/sound/exp.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button id="sorryButton" class="sorry-button">
+      <img src="/gif/tenor.gif" alt="😂" id = "emotelaugh">SORRY <img src="/gif/tenor.gif" id = "emotelaugh" alt="😂"></button>
+  </div>
+</div>
+
+<!-- Correct Order Modal -->
+<div id="correctModal" class="modal">
+  <div class="modal-content">
+    <img src="/images/1.png" alt="Congrats Image" class="modal-image">
+    <p id="correctMoves"></p>
+    <button id="correctLink" class="success-button">Go to the next level</button>
+  </div>
+</div>
+
+
+<!-- Result Button -->
+<button id="submitButton">Check Order</button>
+
+
+  <script src="exp.js"></script>
+</body>
+</html>
