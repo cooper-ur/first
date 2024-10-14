@@ -21,7 +21,7 @@ body {
   /* Container for game */
   .game-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    grid-template-columns: repeat(6, 1fr); /* 5 items per row */
     grid-gap: 20px;
     padding: 20px;
     justify-items: center;
