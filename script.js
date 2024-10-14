@@ -126,7 +126,7 @@ sorryButton.addEventListener('click', () => {
 });
 
 correctLink.addEventListener('click', () => {
-  window.location.href = 'https://google.com'; // Replace this with your desired link
+  window.location.href = 'https://drive.google.com/file/d/1IX_lN4wR0hSpWgts9xt_m5byLzXdOCCw/view?usp=sharing'; // Replace this with your desired link
 });
 // Shuffle the images when the page loads
 window.onload = shuffleImages;
