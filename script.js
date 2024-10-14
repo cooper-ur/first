@@ -72,9 +72,11 @@ imageSlots.forEach(slot => {
 });
 
 const gifs = [
-  '/images/1.png',
-  '/images/3.png',
-  '/images/6.png'
+  '/first/gif/1.gif',
+  '/first/gif/2.gif',
+  '/first/gif/3.gif',
+  '/first/gif/4.gif',
+  '/first/gif/5.gif'
 ];
 
 function getRandomGif() {
