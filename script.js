@@ -72,7 +72,7 @@ imageSlots.forEach(slot => {
 });
 
 const gifs = [
-  '/first/gif/1.gif',
+  'gif/1.gif',
   '/first/gif/2.gif',
   '/first/gif/3.gif',
   '/first/gif/4.gif',
